@@ -1,0 +1,62 @@
+﻿Build started 12/8/2016 4:27:15 PM.
+     1>Project "C:\Users\pqj647\Documents\projects\Opencv\OpenCVBOF\OpenCVBOF\OpenCVBOF.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\pqj647\Documents\Software\opencv2\opencv\build\x64\vc12\..\..\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\OpenCVBOF.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\pqj647\Documents\Software\opencv2\opencv\build\x64\vc12\..\..\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\OpenCVBOF.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt OpenCVBOF.cpp
+         OpenCVBOF.cpp
+     1>c:\users\pqj647\documents\software\opencv2\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>OpenCVBOF.cpp(92): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>OpenCVBOF.cpp(139): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\pqj647\Documents\projects\Opencv\OpenCVBOF\Release\OpenCVBOF.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Users\pqj647\Documents\Software\opencv2\opencv\build\x64\vc12\lib opencv_calib3d2413.lib opencv_contrib2413.lib opencv_flann2413.lib opencv_gpu2413.lib opencv_core2413.lib opencv_highgui2413.lib opencv_imgproc2413.lib opencv_video2413.lib opencv_ml2413.lib opencv_legacy2413.lib opencv_nonfree2413.lib opencv_objdetect2413.lib opencv_ocl2413.lib opencv_photo2413.lib opencv_stitching2413.lib opencv_superres2413.lib opencv_features2d2413.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\pqj647\Documents\projects\Opencv\OpenCVBOF\Release\OpenCVBOF.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\pqj647\Documents\projects\Opencv\OpenCVBOF\Release\OpenCVBOF.lib" /MACHINE:X86 /SAFESEH Release\OpenCVBOF.obj
+         Release\stdafx.obj
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "public: void __thiscall cv::Mat::create(int,int const *,int)" (?create@Mat@cv@@QAEXHPBHH@Z)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "int __cdecl cv::_interlockedExchangeAdd(int *,int)" (?_interlockedExchangeAdd@cv@@YAHPAHH@Z)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "public: void __thiscall cv::Mat::copySize(class cv::Mat const &)" (?copySize@Mat@cv@@QAEXABV12@@Z)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPAX@Z)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "void __cdecl cv::error(class cv::Exception const &)" (?error@cv@@YAXABVException@1@@Z)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "public: __thiscall cv::Exception::Exception(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (??0Exception@cv@@QAE@HABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@00H@Z)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall cv::Exception::~Exception(void)" (??1Exception@cv@@UAE@XZ)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "public: void __thiscall cv::Mat::copyTo(class cv::_OutputArray const &)const " (?copyTo@Mat@cv@@QBEXABV_OutputArray@2@@Z)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "public: __thiscall cv::_OutputArray::_OutputArray(class cv::Mat &)" (??0_OutputArray@cv@@QAE@AAVMat@1@@Z)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "public: void __thiscall cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QAEXXZ)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall cv::FeatureDetector::~FeatureDetector(void)" (??1FeatureDetector@cv@@UAE@XZ)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall cv::Algorithm::~Algorithm(void)" (??1Algorithm@cv@@UAE@XZ)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "public: void __thiscall cv::BOWImgDescriptorExtractor::compute(class cv::Mat const &,class std::vector<class cv::KeyPoint,class std::allocator<class cv::KeyPoint> > &,class cv::Mat &,class std::vector<class std::vector<int,class std::allocator<int> >,class std::allocator<class std::vector<int,class std::allocator<int> > > > *,class cv::Mat *)" (?compute@BOWImgDescriptorExtractor@cv@@QAEXABVMat@2@AAV?$vector@VKeyPoint@cv@@V?$allocator@VKeyPoint@cv@@@std@@@std@@AAV32@PAV?$vector@V?$vector@HV?$allocator@H@std@@@std@@V?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@2@@5@PAV32@@Z)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "public: static class cv::Ptr<class cv::DescriptorMatcher> __cdecl cv::DescriptorMatcher::create(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?create@DescriptorMatcher@cv@@SA?AV?$Ptr@VDescriptorMatcher@cv@@@2@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "public: __thiscall cv::SURF::SURF(void)" (??0SURF@cv@@QAE@XZ)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "public: __thiscall cv::SURF::SURF(double,int,int,bool,bool)" (??0SURF@cv@@QAE@NHH_N0@Z)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall cv::DescriptorExtractor::~DescriptorExtractor(void)" (??1DescriptorExtractor@cv@@UAE@XZ)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "public: __thiscall cv::BOWKMeansTrainer::BOWKMeansTrainer(int,class cv::TermCriteria const &,int,int)" (??0BOWKMeansTrainer@cv@@QAE@HABVTermCriteria@1@HH@Z)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall cv::BOWKMeansTrainer::~BOWKMeansTrainer(void)" (??1BOWKMeansTrainer@cv@@UAE@XZ)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "public: __thiscall cv::BOWImgDescriptorExtractor::BOWImgDescriptorExtractor(class cv::Ptr<class cv::DescriptorExtractor> const &,class cv::Ptr<class cv::DescriptorMatcher> const &)" (??0BOWImgDescriptorExtractor@cv@@QAE@ABV?$Ptr@VDescriptorExtractor@cv@@@1@ABV?$Ptr@VDescriptorMatcher@cv@@@1@@Z)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall cv::BOWImgDescriptorExtractor::~BOWImgDescriptorExtractor(void)" (??1BOWImgDescriptorExtractor@cv@@UAE@XZ)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol _cvLoadImage
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "public: void __thiscall cv::FeatureDetector::detect(class cv::Mat const &,class std::vector<class cv::KeyPoint,class std::allocator<class cv::KeyPoint> > &,class cv::Mat const &)const " (?detect@FeatureDetector@cv@@QBEXABVMat@2@AAV?$vector@VKeyPoint@cv@@V?$allocator@VKeyPoint@cv@@@std@@@std@@0@Z)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "public: __thiscall cv::Mat::Mat(struct _IplImage const *,bool)" (??0Mat@cv@@QAE@PBU_IplImage@@_N@Z)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "public: void __thiscall cv::DescriptorExtractor::compute(class cv::Mat const &,class std::vector<class cv::KeyPoint,class std::allocator<class cv::KeyPoint> > &,class cv::Mat &)const " (?compute@DescriptorExtractor@cv@@QBEXABVMat@2@AAV?$vector@VKeyPoint@cv@@V?$allocator@VKeyPoint@cv@@@std@@@std@@AAV32@@Z)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "public: void __thiscall cv::BOWTrainer::add(class cv::Mat const &)" (?add@BOWTrainer@cv@@QAEXABVMat@2@@Z)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "public: class std::vector<class cv::Mat,class std::allocator<class cv::Mat> > const & __thiscall cv::BOWTrainer::getDescriptors(void)const " (?getDescriptors@BOWTrainer@cv@@QBEABV?$vector@VMat@cv@@V?$allocator@VMat@cv@@@std@@@std@@XZ)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "public: virtual class cv::Mat __thiscall cv::BOWKMeansTrainer::cluster(void)const " (?cluster@BOWKMeansTrainer@cv@@UBE?AVMat@2@XZ)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "public: void __thiscall cv::BOWImgDescriptorExtractor::setVocabulary(class cv::Mat const &)" (?setVocabulary@BOWImgDescriptorExtractor@cv@@QAEXABVMat@2@@Z)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "public: void __thiscall cv::Mat::push_back(class cv::Mat const &)" (?push_back@Mat@cv@@QAEXABV12@@Z)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "public: __thiscall CvSVMParams::CvSVMParams(void)" (??0CvSVMParams@@QAE@XZ)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "public: __thiscall CvSVM::CvSVM(void)" (??0CvSVM@@QAE@XZ)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall CvSVM::~CvSVM(void)" (??1CvSVM@@UAE@XZ)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall CvSVM::train(class cv::Mat const &,class cv::Mat const &,class cv::Mat const &,class cv::Mat const &,struct CvSVMParams)" (?train@CvSVM@@UAE_NABVMat@cv@@000UCvSVMParams@@@Z)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "public: virtual float __thiscall CvSVM::predict(class cv::Mat const &,bool)const " (?predict@CvSVM@@UBEMABVMat@cv@@_N@Z)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "int __cdecl cv::countNonZero(class cv::_InputArray const &)" (?countNonZero@cv@@YAHABV_InputArray@1@@Z)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "public: __thiscall cv::_InputArray::_InputArray(class cv::MatExpr const &)" (??0_InputArray@cv@@QAE@ABVMatExpr@1@@Z)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "class cv::MatExpr __cdecl cv::operator-(class cv::Mat const &,class cv::Mat const &)" (??Gcv@@YA?AVMatExpr@0@ABVMat@0@0@Z)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "void * __cdecl cv::fastMalloc(unsigned int)" (?fastMalloc@cv@@YAPAXI@Z)
+     1>OpenCVBOF.obj : error LNK2001: unresolved external symbol "public: void __thiscall cv::Mat::push_back_(void const *)" (?push_back_@Mat@cv@@QAEXPBX@Z)
+     1>C:\Users\pqj647\Documents\projects\Opencv\OpenCVBOF\Release\OpenCVBOF.exe : fatal error LNK1120: 40 unresolved externals
+     1>Done Building Project "C:\Users\pqj647\Documents\projects\Opencv\OpenCVBOF\OpenCVBOF\OpenCVBOF.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.83
